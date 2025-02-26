@@ -2,9 +2,7 @@ import pymysql
 
 
 def init():
-    # conn = pymysql.connect(host='127.0.0.1', port=3306, password='123456', user='root', db='demo',
-    #                        charset='utf8')
-    conn = pymysql.connect(host='10.20.34.82', port=33061, password='DFLTb962881fa6', user='root', db='hs_ics',
+    conn = pymysql.connect(host='127.0.0.1', port=3306, password='123456', user='root', db='demo',
                            charset='utf8')
     return conn
 
